@@ -214,7 +214,7 @@ scipy>=1.7.0
 ## 🔍 Methodology Details
 
 ### 1. Data Generation
-Since this is a teaching project, we generated realistic synthetic data:
+We generated realistic synthetic data:
 - **{len(customers):,}** customers across {len(transactions):,} transactions
 - **5-year** historical period (2020-2024)
 - Realistic patterns: seasonality, churn, growth trends
@@ -296,13 +296,9 @@ rfm['segment'] = pd.qcut(rfm['recency'], q=5, labels=[5,4,3,2,1])
 ## 📚 Resources & References
 
 ### Datasets
-- Synthetic data generated for teaching purposes
+- Synthetic data generated
 - Mimics real-world SaaS subscription business patterns
 
-### Learning Materials
-- **Time Series**: "Forecasting: Principles and Practice" by Hyndman & Athanasopoulos
-- **Customer Analytics**: "Customer Analytics for Dummies" by Jeff Sauro
-- **Python**: "Python for Data Analysis" by Wes McKinney
 
 ### Tools & Libraries
 - [Pandas Documentation](https://pandas.pydata.org/)
